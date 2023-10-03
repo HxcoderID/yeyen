@@ -1,7 +1,7 @@
 /* KALO MAU AMBIL AMBIL AJA BANG
  * TAPI JANGAN HAPUS TQTO!!
- * 
  * THX TO
+ * HENDRA-ID
  * ARA
  * YEYENCANGTIP
  * ADULALHY
@@ -54,20 +54,20 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:Yeyen Cangtip\n'
             + 'ORG: OwnerBot;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=6283186893249:+62 831-8689-3249\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=6283148450932:+62 831-4845-0932\n' 
             + 'END:VCARD'
 prefix = '.' 
 blocked = []   
 limitawal = 25
-memberlimit = 1
-cr = '*Yeyen Cangtip*' 
+memberlimit = 10
+cr = '*HendraID*' 
 fakeimage = fs.readFileSync(`./src/logo.jpg`)
-replitx = '*YEYEN CANGTIP*'
-ari = '*YEYEN CANGTIP*'
+replitx = '*HendraID*'
+ari = '*HendraID*'
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ['6283186893249@s.whatsapp.net','6281390199407@s.whatsapp.net']   
-const pacarNumber = ["6281390199407@s.whatsapp.net"]  
+const ownerNumber = ['6283148450932@s.whatsapp.net','685624128286@s.whatsapp.net']   
+const pacarNumber = [""]  
 /************************************/
 
        
@@ -269,7 +269,7 @@ function kyun(seconds){
 }
 //---Metadata stiker
 			function addMetadata(packname, author) {	
-				if (!packname) packname = 'Yeyen Cangtip'; if (!author) author = 'Bot Yeyen';	
+				if (!packname) packname = 'Yeyen Cangtip'; if (!author) author = 'HendraID';	
 				author = author.replace(/[^a-zA-Z0-9]/g, '');	
 				let name = `${author}_${packname}`
 				if (fs.existsSync(`./src/stickers/${name}.exif`)) return `./src/stickers/${name}.exif`
